@@ -1,0 +1,5 @@
+name: Essentials
+version: '${project.version}'
+main: io.github.sidneiimatos.essentials.Essentials
+commands:
+  fly:
