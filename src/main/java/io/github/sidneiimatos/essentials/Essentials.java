@@ -1,6 +1,6 @@
 package io.github.sidneiimatos.essentials;
 
-import io.github.sidneiimatos.essentials.commands.CommandFly;
+import io.github.sidneiimatos.essentials.commands.FlyCommand;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -12,7 +12,7 @@ public final class Essentials extends JavaPlugin {
         instance = this;
         saveDefaultConfig();
         // Plugin startup logic
-        getCommand("fly").setExecutor((CommandExecutor) new CommandFly());
+        getCommand("fly").setExecutor((CommandExecutor) new FlyCommand());
 
     }
     public static Essentials getInstance() {
