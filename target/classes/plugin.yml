@@ -3,3 +3,8 @@ version: '1.0-SNAPSHOT'
 main: io.github.sidneiimatos.essentials.Essentials
 commands:
   fly:
+  site:
+  youtube:
+    aliases: [yt, miniyt, parceiros]
+  feed:
+    aliases: [heal, food]

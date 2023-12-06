@@ -1,5 +1,16 @@
 CONSOLE_BLOCKED: 'Comando apenas para jogadores!'
 NO_PERMISSION: 'Você não tem permissão para usar este comando!'
+HEAL: 'Sua vida foi restaurada!'
 FLY:
   ATIVADO: '&aModo de voo habilitado com sucesso!'
   DESATIVADO: '&cModo de voo desabilitado com sucesso!'
+SITE:
+  - ''
+  - 'A'
+  - ''
+  - ''
+YOUTUBE:
+  - ''
+  - 'A'
+  - ''
+  - ''
